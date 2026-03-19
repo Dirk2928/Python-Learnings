@@ -19,3 +19,17 @@ print("Dirk" in A) #put not in to check if a certain phrase or character is not 
 # Remove Whitespace
 A = "   heyy , Dirk   "
 print(A.strip()) # removes whitespace from the beginning or end of a string
+
+
+pasta_type = "pasta"
+
+# Update pasta type to be more specific
+pasta_type = pasta_type.replace("pasta", "fusilli pasta")
+
+ingredient_one = "BASIL"
+
+# Standardize ingredient_one to lowercase
+ingredient_one = ingredient_one.lower()
+
+print(pasta_type)
+print(ingredient_one)
